@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="258" viewBox="0 0 840 258" role="img" aria-labelledby="title desc">
+  <title id="title">VoXDoX — JsonQiest</title>
+  <desc id="desc">Пиксельный логотип VoXDoX и три фразы из профиля в стиле аркадного автомата.</desc>
+  <defs>
+    <linearGradient id="cabinet" x2="1" y2="1">
+      <stop stop-color="#161a22"/>
+      <stop offset=".52" stop-color="#101319"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <linearGradient id="word" x2="0" y2="1">
+      <stop stop-color="#ffe9a3"/>
+      <stop offset="1" stop-color="#f2b84b"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 .5h4" stroke="#090b10" stroke-opacity=".38"/>
+    </pattern>
+    <g id="v"><path d="M0 0h1v4h1v1h1v-1h1V0h1v5H4v1H3v1H2V6H1V5H0z"/></g>
+    <g id="o"><path fill-rule="evenodd" d="M1 2h3v1h1v3H4v1H1V6H0V3h1zm0 1v3h3V3z"/></g>
+    <g id="x"><path d="M0 0h1v1h1v1h1v1h1V2h1V1h1V0h1v2H6v1H5v1h1v1h1v2H6V6H5V5H4V4H3v1H2v1H1v1H0V5h1V4h1V3H1V2H0z"/></g>
+    <g id="d"><path fill-rule="evenodd" d="M0 0h4v1h1v1h1v3H5v1H4v1H0zm1 1v5h3V5h1V2H4V1z"/></g>
+  </defs>
+  <style>
+    .quote { font: 28px 'DejaVu Sans Mono', Consolas, monospace; fill: #efebe2; }
+    .second, .third { opacity: 0; }
+    @media (prefers-reduced-motion: no-preference) {
+      .first, .second, .third { opacity: 0; animation: type 21s steps(30,end) infinite; }
+      .second { animation-delay: 7s; }
+      .third { animation-delay: 14s; }
+      .pellet { animation: flicker 1.8s step-end infinite; }
+      @keyframes type {
+        0% { opacity: 1; clip-path: inset(0 100% 0 0); }
+        10%, 31.9% { opacity: 1; clip-path: inset(0); }
+        33.3%, 100% { opacity: 0; clip-path: inset(0); }
+      }
+      @keyframes flicker { 65% { opacity: .3; } }
+    }
+  </style>
+  <rect x="1" y="1" width="838" height="256" rx="17" fill="url(#cabinet)" stroke="#53505a" stroke-width="2"/>
+  <path d="M19 81V29a9 9 0 0 1 9-9h87m610 0h87a9 9 0 0 1 9 9v52M19 192v37a9 9 0 0 0 9 9h87m610 0h87a9 9 0 0 0 9-9v-37" fill="none" stroke="#967548" stroke-width="2" opacity=".71"/>
+  <path d="M123 20h594m-594 218h594" stroke="#30333e" stroke-width="2"/>
+  <path d="M38 148h764" stroke="#292e39"/>
+  <text x="40" y="55" fill="#c9b88e" font-family="Consolas, 'DejaVu Sans Mono', monospace" font-size="21" letter-spacing="3">JsonQiest</text>
+  <g shape-rendering="crispEdges">
+    <g transform="translate(42 72) scale(9)" fill="#7c4c24">
+      <use href="#v"/><use href="#o" x="6"/><use href="#x" x="12"/><use href="#d" x="20"/><use href="#o" x="27"/><use href="#x" x="33"/>
+    </g>
+    <g transform="translate(40 67) scale(9)" fill="url(#word)">
+      <use href="#v"/><use href="#o" x="6"/><use href="#x" x="12"/><use href="#d" x="20"/><use href="#o" x="27"/><use href="#x" x="33"/>
+    </g>
+    <g fill="none" stroke="#544976" stroke-width="3">
+      <path d="M615 44h178v76h-71m-107 0h-82V42h53"/>
+      <path d="M615 51h171v62h-64m-107 0h-75V49h46" opacity=".53"/>
+    </g>
+    <path fill="#f4c65e" d="M576 62h27v5h9v6h6v7h-10v5h-11v5h-12v5h12v5h11v5h10v7h-6v6h-9v5h-27v-5h-9v-8h-7V75h7v-8h9z"/>
+    <path fill="#242232" d="M592 72h7v7h-7z"/>
+    <g fill="#eed6a0" class="pellet"><path d="M635 89h7v7h-7zm18 0h7v7h-7zm18 0h7v7h-7z"/></g>
+    <path fill="#b48aa6" d="M706 68h22v5h8v7h5v34h-9v-5h-8v5h-10v-5h-8v5h-9V80h4v-7h5z"/>
+    <path fill="#fff0dc" d="M703 82h11v14h-11zm17 0h11v14h-11z"/>
+    <path fill="#43334b" d="M703 88h5v8h-5zm17 0h5v8h-5z"/>
+  </g>
+  <rect x="38" y="163" width="764" height="58" rx="5" fill="#0a0d12" stroke="#333743"/>
+  <rect x="39" y="164" width="762" height="56" rx="4" fill="url(#scan)"/>
+  <path d="m53 184 9 8-9 8" stroke="#f4c65e" stroke-width="3" fill="none"/>
+  <g transform="translate(76 186)">
+    <g class="quote first"><text y="0">В общем — работа не волк,</text><text y="28">walk — это ходить, работа — work.</text></g>
+    <g class="quote second"><text y="0">Каждый входящий сюда —</text><text y="28">обречён на муки.</text></g>
+    <g class="quote third"><text y="0">Hello, I’m Json Qiest.</text><text y="28">Тьфу, туфта.</text></g>
+  </g>
+</svg>
